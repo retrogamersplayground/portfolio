@@ -209,3 +209,12 @@ footer {
     font-size: 3em;
     color:  #AC01E4;
 }
+
+.socialMedia ul {
+    margin-left: auto;
+}
+
+.socialMedia ul li {
+    display: inline-block;
+    padding-left: 20px;
+}
