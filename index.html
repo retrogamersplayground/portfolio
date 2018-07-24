@@ -10,6 +10,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -35,7 +36,7 @@
                 <div class="showcaseContainer">
                     <h1>Neil Floyd</h1>
                     <p id="greeting">Hello!</p>
-                    <P id="introduction">My name is Neil Floyd,</p>
+                    <P id="introduction">My name is Neil,</p>
                     <p id="statement">and I want to be your developer!</p>
                 </div><!--showcaseContainer-->
 
@@ -47,15 +48,16 @@
 
             <div class="aboutDiv">
                 <h2 class="aboutH2">About</h2>
-                <div>
+                <div class="aboutImgDiv">
                     <img src="img/code_icon.png" class="aboutImgLeft">
                 </div>
-                <div>
+                <div id="aboutParagraphDiv">
                     <p class="aboutParagraph">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galleyLorem Ipsum is simply dummy text of the printing.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galleyLorem Ipsum is simply dummy text of the printing.
+                        I specialize in solving problems. I have multiple skills sets and tools that help me achieve my goal of providing quality service to every client.  What is that idea you have had in the back of your mind?
+                        Let me help you make it a reality. 
                     </p>
                 </div>
-                <div>
+                <div class="aboutImgDiv">
                     <img src="img/code_icon.png" class="aboutImgRight">
                 </div>
             </div><!--aboutDiv-->
@@ -81,13 +83,15 @@
             </div><!--projectsDiv-->
             
             <div class="contactContainer">
-                <h2 class="formH2">I look forward to hearing from you</h2>
+                <h2 class="formH2">Contact Me</h2>
+                <p>I look forward to hearing from you.
+                </p>
                 <form method="post" action="parser.php">
                     <input type="text" name="name" placeholder="Enter your name" id="name">
                     <input type="email" name="email" placeholder="Enter your email" id="email">
-                    <textarea type="text" name="message" placeholder="Enter your Message" id="message"></textarea>
+                    <textarea type="text" name="message" placeholder="Enter your message" id="message"></textarea>
 
-                    <input type="submit" name="submit" value="submit" id="submit">
+                    <input type="submit" name="submit" value="Submit" id="submit">
                 </form>
             </div><!--contactContainer-->
             
@@ -96,13 +100,13 @@
 
         <footer>
             <div class="footerDiv">
-                <h2 class="footerH2">Neil C. Floyd</h2>
+                <h2 id="footerH2">Neil C. Floyd</h2>
                 <p class="footerParagraph">All rights Reserved</p>
                 <p>&copy;2018</p>
             </div><!--footerDiv-->
             
             <div class="socialMedia">
-                <!--enter Font Awesome icons for facebook, instagram, behance, twitter-->
+                <!--enter Font Awesome icons for facebook, linkedin, github-->
             </div><!--socialMeida-->
         </footer>
 

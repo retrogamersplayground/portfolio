@@ -1,3 +1,60 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+/*Start of Css*/
+body {
+    font-family: 'Fjalla One', sans-serif;
+}
+
 nav {
     background-color: #e0dce8;
 }
@@ -21,12 +78,31 @@ a {
 
 .showcase {
     background-color:#222428;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 h1 {
     color: #AC01E4;
     font-size: 6em;
     margin-left: 200px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #222428;
+    font-size: 4em;
+    margin-bottom: 50px;
+}
+
+h3{
+    font-size: 2em;
+    color: #222428;
+}
+
+p{
+    font-size: 1.75em;
+    line-height: 1.5;
 }
 
 .showcaseContainer p {
@@ -37,6 +113,7 @@ h1 {
 
 #greeting {
     font-size: 4em;
+    margin-bottom: 50px;
 }
 
 .showcase div {
@@ -45,25 +122,35 @@ h1 {
 }
 
 .showcaseImgContainer {
-    width: 100%;
+    width: 100%; 
 }
 
 .showcaseImgContainer img {
     width: 65%;
+    margin-left: 65px;
 }
 
 .aboutDiv {
     background-color: #e0dce8;
     text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .aboutDiv div {
-    width: 30%;
+    width: 24%;
     display: inline-block;
 }
 
+#aboutParagraphDiv {
+    width: 50%;
+}
+
+
 .projectsDiv {
     text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .project {
@@ -74,21 +161,51 @@ h1 {
 .contactContainer {
     background-color: #e0dce8;
     text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+form {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 input {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 100%;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
 }
 textarea {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 100%;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+#submit {
+    background-color: #AC01E4;
+    padding-top: 20px;
+    color: #e0dce8;
+    margin-bottom: 100px;
 }
 
 footer {
-    background-color: #222428;
+    background-color: #222428; 
     color: #AC01E4;
     text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#footerH2 {
+    font-size: 3em;
+    color:  #AC01E4;
 }
