@@ -218,3 +218,52 @@ footer {
     display: inline-block;
     padding-left: 20px;
 }
+
+/*animations*/
+
+#greeting {
+    animation-duration: 5s;
+    animation-name: fadein;
+}
+
+#introduction {
+    animation-duration: 5s;
+    animation-name: fadein;
+}
+
+#statement {
+    animation-duration: 5s;
+    animation-name: fadein;
+}
+
+@keyframes fadein {
+    from {
+      opacity: 0;
+
+    }
+    to {
+      opacity: 1;
+    }
+}
+
+
+h1 {
+    animation-duration: 1.25s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+      margin-left: -400px;
+
+    }
+    to {
+      margin-left: 200px;
+    }
+}
+
+
+/*tablet size css*/
+
+
+/*phone size css*/
