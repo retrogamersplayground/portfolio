@@ -69,9 +69,15 @@ header nav ul li {
     margin: 20px;
 }
 
-a {
+nav a {
     text-decoration: none;
     color: #AC01E4;
+    font-size: 1.5em;
+
+}
+a {
+    text-decoration: none;
+    color: #e0dce8;
     font-size: 1.5em;
 
 }
