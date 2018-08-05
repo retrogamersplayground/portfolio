@@ -71,7 +71,7 @@ header nav ul li {
 
 a {
     text-decoration: none;
-    color: #AC01E4;
+    color: #e0dce8;
     font-size: 1.5em;
 
 }
@@ -83,7 +83,7 @@ a {
 }
 
 h1 {
-    color: #AC01E4;
+    color: #e0dce8;
     font-size: 6em;
     margin-left: 200px;
     margin-bottom: 20px;
@@ -106,7 +106,7 @@ p{
 }
 
 .showcaseContainer p {
-    color: #AC01E4;
+    color: #e0dce8;
     margin-left: 200px;
     font-size: 2.5em;
 }
@@ -199,7 +199,7 @@ textarea {
 
 footer {
     background-color: #222428; 
-    color: #AC01E4;
+    color: #e0dce8;
     text-align: center;
     padding-top: 100px;
     padding-bottom: 100px;
@@ -207,7 +207,7 @@ footer {
 
 #footerH2 {
     font-size: 3em;
-    color:  #AC01E4;
+    color:  #e0dce8;
 }
 
 .socialMedia ul {
@@ -267,3 +267,5 @@ h1 {
 
 
 /*phone size css*/
+
+#AC01E4;
