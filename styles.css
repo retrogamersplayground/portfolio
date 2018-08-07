@@ -61,20 +61,23 @@ nav {
 
 ul {
     list-style-type: none;
-    margin-left: 60%;
+    margin-left: 50%;
 }
 
 header nav ul li {
     display: inline-block;
-    margin: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 nav a {
     text-decoration: none;
     color: #AC01E4;
     font-size: 1.5em;
-
 }
+
 a {
     text-decoration: none;
     color: #e0dce8;
@@ -88,12 +91,6 @@ a {
     padding-bottom: 50px;
 }
 
-h1 {
-    color: #e0dce8;
-    font-size: 6em;
-    margin-left: 200px;
-    margin-bottom: 20px;
-}
 
 h2 {
     color: #222428;
@@ -112,15 +109,10 @@ p{
 }
 
 .showcaseContainer p {
-    color: #e0dce8;
-    margin-left: 200px;
-    font-size: 2.5em;
+   
 }
 
-#greeting {
-    font-size: 4em;
-    margin-bottom: 50px;
-}
+
 
 .showcase div {
     width: 45%;
@@ -169,34 +161,36 @@ p{
     text-align: center;
     padding-top: 100px;
     padding-bottom: 100px;
+    width: 100%;
 }
 
 form {
-    width: 40%;
+    width:40%;
     margin-left: auto;
     margin-right: auto;
 }
 
 input {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
+    width:100%;
+    padding: 0px;
+    border: none;
     margin-bottom: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     font-size: 20px;
 }
 textarea {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 0;
     width: 100%;
+    border:none;
     padding-bottom: 50px;
     margin-bottom: 20px;
     font-size: 20px;
 }
 
 #submit {
+    border: none;
     background-color: #AC01E4;
     padding-top: 20px;
     color: #e0dce8;
@@ -227,20 +221,47 @@ footer {
 
 /*animations*/
 
+h1 {
+    color: #ffffff;
+    font-size: 6em;
+    margin-left: 200px;
+    margin-bottom: 20px;
+    animation-duration: 5s;
+    animation-name: fadein;
+}
+
 #greeting {
+    color: #e0dce8;
+    margin-left: 200px;
+    font-size: 4em;
+    margin-bottom: 50px;
     animation-duration: 5s;
     animation-name: fadein;
 }
 
 #introduction {
+    color: #e0dce8;
+    margin-left: 200px;
+    font-size: 2.5em;
     animation-duration: 5s;
     animation-name: fadein;
 }
 
 #statement {
+    color: #e0dce8;
+    margin-left: 200px;
+    font-size: 2.5em;
     animation-duration: 5s;
     animation-name: fadein;
 }
+
+.showcaseImgContainer img {
+    width: 65%;
+    margin-left: 65px;
+    animation-duration: 5s;
+    animation-name: fadein;
+}
+
 
 @keyframes fadein {
     from {
@@ -252,26 +273,7 @@ footer {
     }
 }
 
-
-h1 {
-    animation-duration: 1.25s;
-    animation-name: slidein;
-}
-
-@keyframes slidein {
-    from {
-      margin-left: -400px;
-
-    }
-    to {
-      margin-left: 200px;
-    }
-}
-
-
 /*tablet size css*/
 
 
 /*phone size css*/
-
-#AC01E4;
