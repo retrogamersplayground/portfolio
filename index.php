@@ -100,6 +100,7 @@
         </div> <!--main content-->
 
         <footer>
+
             <div class="footerDiv">
                 <h2 id="footerH2">Neil C. Floyd</h2>
                 <p class="footerParagraph">All rights Reserved</p>
@@ -114,8 +115,7 @@
 
             </div><!--socialMeida-->
             </div><!--footerDiv-->
-            
-            
+              
         </footer>
 
         <script src="main.js" async defer></script>

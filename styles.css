@@ -98,21 +98,15 @@ h2 {
     margin-bottom: 50px;
 }
 
-h3{
+h3 {
     font-size: 2em;
     color: #222428;
 }
 
-p{
+p {
     font-size: 1.75em;
     line-height: 1.5;
 }
-
-.showcaseContainer p {
-   
-}
-
-
 
 .showcase div {
     width: 45%;
@@ -172,18 +166,19 @@ form {
 
 input {
     display: block;
-    width:100%;
+    width: 100%;
     padding: 0px;
     border: none;
     margin-bottom: 20px;
     padding-bottom: 30px;
     font-size: 20px;
 }
+
 textarea {
     display: block;
     padding: 0;
     width: 100%;
-    border:none;
+    border: none;
     padding-bottom: 50px;
     margin-bottom: 20px;
     font-size: 20px;
@@ -217,6 +212,20 @@ footer {
 .socialMedia ul li {
     display: inline-block;
     padding-left: 20px;
+}
+
+/*hover*/
+
+nav a:hover {
+    color: #222428;
+}
+
+.socialMedia ul li a:hover {
+    color: #AC01E4;
+}
+
+#submit:hover {
+    cursor: pointer;
 }
 
 /*animations*/
