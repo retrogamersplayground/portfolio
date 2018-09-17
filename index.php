@@ -42,7 +42,7 @@
                 </div><!--showcaseContainer-->
 
                 <div class="showcaseImgContainer">
-                    <img src="img/headshot.jpg" class"showcaseImg">
+                    <img src="img/headshot.jpg" class="showcaseImg">
                 </div><!--showcaseImgContainer-->
 
             </div> <!--showcase-->
