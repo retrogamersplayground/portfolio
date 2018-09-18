@@ -11,6 +11,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="styles.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
     </head>
     <body>
@@ -18,15 +19,23 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <header>
-            <nav>
+        <header id="home">
+            <nav class="topnav" id="myTopnav">
             <!--<icon>Neil C. Floyd</icon>-->
+
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+            </a>
+            
             <ul>
-               <li><a href="">Home</a></li>
-               <li><a href="">About</a></li>
-               <li><a href="">Projects</a></li>
-               <li><a href="">Contact</a></li>
+               <li><a href="#home">Home</a></li>
+               <li><a href="#about">About</a></li>
+               <li><a href="#projects">Projects</a></li>
+               <li><a href="#contact">Contact</a></li>
             </ul>
+            
+                
+        
             </nav>
         <header>
 
@@ -47,7 +56,7 @@
 
             </div> <!--showcase-->
 
-            <div class="aboutDiv">
+            <div class="aboutDiv" id="about">
                 <h2 class="aboutH2">About</h2>
                 <div class="aboutImgDiv">
                     <img src="img/code_icon2.png" class="aboutImgLeft">
@@ -63,7 +72,7 @@
                 </div>
             </div><!--aboutDiv-->
 
-            <div class="projectsDiv">
+            <div class="projectsDiv" id="projects">
                 
                 <h2>My most recent work</h2>
                 <div class="project">
@@ -83,7 +92,7 @@
                 
             </div><!--projectsDiv-->
             
-            <div class="contactContainer">
+            <div class="contactContainer" id="contact">
                 <h2 class="formH2">Contact Me</h2>
                 <p>I look forward to hearing from you.
                 </p>
