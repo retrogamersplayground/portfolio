@@ -290,14 +290,17 @@ h1 {
     }
 }
 
-/*large tablet size css*/
 
-@media only screen and (max-width: 1024px) {
-
+@media only screen and (max-width: 1346px) {
 
     ul {
         margin-left: 30%;
     }
+}
+
+/*large tablet size css*/
+
+@media only screen and (max-width: 1024px) {
 
     .aboutImgLeft {
         width: 90%;
