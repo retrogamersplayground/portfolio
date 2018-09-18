@@ -296,6 +296,16 @@ h1 {
     ul {
         margin-left: 30%;
     }
+
+    .aboutImgLeft {
+        width: 90%;
+    }
+
+    .aboutImgRight {
+        width: 90%;
+    }
+
+
 }
 
 
@@ -346,15 +356,7 @@ h1 {
 
 @media only screen and (max-width: 1024px) {
 
-    .aboutImgLeft {
-        width: 90%;
-    }
-
-    .aboutImgRight {
-        width: 90%;
-    }
-
-}
+    
 
 
 @media only screen and (max-width: 967px) {
