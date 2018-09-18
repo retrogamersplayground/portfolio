@@ -298,6 +298,50 @@ h1 {
     }
 }
 
+
+@media only screen and (max-width: 1027px) {
+
+    .showcase div {
+        width: 90%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align:  center;
+    }
+
+    .showcaseContainer {
+        width: 100%;
+    }
+
+    .showcaseImgContainer {
+        margin-top: 20px;
+    }
+
+    .showcaseImgContainer img {
+        margin-left: 0px;
+    }
+
+    h1 {
+        margin-left: 0px;
+        
+    }
+    
+    #greeting {
+        margin-left: 0px;
+        
+    }
+    
+    #introduction {
+        margin-left: 0px;
+        
+    }
+    
+    #statement {
+        margin-left: 0px;
+        
+    }
+
+}
 /*large tablet size css*/
 
 @media only screen and (max-width: 1024px) {
@@ -381,75 +425,11 @@ h1 {
         width: 60%;
     }
 
-    h1 {
-        font-size: 3em;
-        margin-left: 100px;
-    }
-    
-    #greeting {
-        margin-left: 100px;
-        font-size: 2em;
-    }
-    
-    #introduction {
-        margin-left: 100px;
-        font-size: 1.5em;
-    }
-    
-    #statement {
-        margin-left: 100px;
-        font-size: 1.5em;
-    }
-
 }
 /*phone size css*/
 
 @media only screen and (max-width: 415px) {
     
-    h1 {
-        margin-left: none;
-    }
-
-    .showcase div {
-        width: 90%;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        text-align:  center;
-    }
-
-    .showcaseContainer {
-        width: 100%;
-    }
-
-    .showcaseImgContainer {
-        margin-top: 20px;
-    }
-
-    .showcaseImgContainer img {
-        margin-left: 0px;
-    }
-
-    h1 {
-        margin-left: 0px;
-        
-    }
-    
-    #greeting {
-        margin-left: 0px;
-        
-    }
-    
-    #introduction {
-        margin-left: 0px;
-        
-    }
-    
-    #statement {
-        margin-left: 0px;
-        
-    }
-
     .aboutDiv div {
         width: 80%;
         display: block;
